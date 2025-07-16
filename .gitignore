@@ -1,0 +1,32 @@
+# Ignore compiled output files
+/build/
+/dist/
+
+# Ignore node modules
+/node_modules/
+
+# Ignore log files
+*.log
+npm-debug.log*
+
+# Ignore environment variables and sensitive data
+
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE specific files and directories
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Ignore temporary files
+*~
+.#*
